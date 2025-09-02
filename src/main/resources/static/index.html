@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Upload</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入 Font Awesome 图标库（用于云图标） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+        <h1>Finish!</h1>
+        <h2>Upload Your Resume</h2>
+        <p>Upload your resume, the platform will help you parse and optimize, you can also skip this step</p>
+        <div class="illustration">
+            <!-- 这里用文字模拟插图，实际可替换为图片 -->
+            <div class="cat-illustration-placeholder"></div>
+        </div>
+    </div>
+    <div class="right-section">
+        <h3>Upload file</h3>
+        <div class="upload-area">
+            <i class="fas fa-cloud-upload-alt cloud-icon"></i>
+            <p>Drag your resume file to this area, or click on the area to select the appropriate file to upload</p>
+            <input type="file" id="fileInput" style="display: none;">
+        </div>
+        <div class="buttons">
+            <button class="last-step-btn">Last step</button>
+            <button class="finish-btn">Finish</button>
+        </div>
+        <div class="progress">
+            <span class="progress-dot active"></span>
+            <span class="progress-dot active"></span>
+            <span class="progress-dot active"></span>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
